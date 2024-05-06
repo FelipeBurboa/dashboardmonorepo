@@ -1,0 +1,19 @@
+{
+  "workspaces": [
+    "./Backend",
+    "./Frontend"
+  ],
+  "name": "desafiodashboardusuarios",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm-run-all --parallel frontend:dev backend:start",
+    "backend:start": "cd Backend && npm run dev",
+    "frontend:dev": "cd Frontend && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

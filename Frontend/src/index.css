@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+}
+
+@layer components {
+  /* Custom table styles */
+  .bg-slate {
+     @apply bg-black;
+  }
+
+  .bg-slate-light:hover {
+    @apply bg-gray-800;
+  }
+}
